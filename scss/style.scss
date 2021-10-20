@@ -1,0 +1,32 @@
+@import "globals";
+@import "home";
+
+$lista1: rgb(221, 8, 221), purple, #aa26946c, hsla(310, 59%, 58%, 0.959), black;
+
+body {
+  background-color: hsl(308, 79%, 36%);
+}
+.main {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+.row {
+  justify-content: space-between;
+  align-items: center;
+}
+.carousel {
+  align-items: flex-end;
+  width: 50%;
+}
+h1,
+h2,
+h3,
+p {
+  background-color: $lista1, 4;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+}
+.imagenes {
+  width: ($ancho/3) px;
+}
